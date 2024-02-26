@@ -17,10 +17,10 @@ function App() {
       <About />
       <Speakers />
       <Expect />
-      <Agenda />
+      {/* <Agenda /> */}
       <Tickets />
-      <Sponsors />
-      <Bizzfooter />
+      {/* <Sponsors />
+      <Bizzfooter /> */}
     </div>
   );
 }

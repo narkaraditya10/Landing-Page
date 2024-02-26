@@ -3,52 +3,48 @@ import React from "react";
 function About() {
   return (
     <div className="about-section">
-      <div className="about-section-stats">
+      <div className="about-section-stats grid grid-cols-2 md:grid-cols-4 w-full md:max-w-[1280px] md:h-[260px]  gap-[20px]  ">
         <div className="stat">
-          <label>1K+</label>
+          <label>300+</label>
           <p>ATTENDEE</p>
         </div>
         <div className="stat">
-          <label>60+</label>
-          <p>speakers</p>
+          <label>10+</label>
+          <p>Top 1% Speakers</p>
         </div>
         <div className="stat">
-          <label>20+</label>
-          <p>sessions</p>
+          <label>100+</label>
+          <p>Angel Investors</p>
         </div>
         <div className="stat">
-          <label>2+</label>
-          <p>Tracks</p>
+          <label>5</label>
+          <p>Startup Pitches</p>
         </div>
       </div>
 
-      <div className="flex max-w-[1280px] pt-[160px] ">
-        <div className="w-[50%]">
-          <h2 className="text-[#ff706b] text-[60px] font-[eina01, sans serif] font-[600]">
+      <div className="flex flex-col md:flex-row max-w-[1280px] py-[80px] mt-[40px] px-[40px] md:t-[160px] bg-[#F2F0F8] md:bg-[#E7E5F3] ">
+        <div className="md:w-[50%]">
+          <h2 className="text-[#ff706b] text-[28px] md:text-[60px] font-[eina01, sans serif] font-[600]">
             About <br /> The Summit
           </h2>
         </div>
-        <div className="w-[50%]  ">
-          <label className="text-[18px] font-[arial] text-[#000000]">
-            Today, India is at a new juncture – the advent of the{" "}
-            <b>financial internet</b>. With 21 new unicorns and over $20 Bn in
-            funding, India’s nascent <b>fintech market</b> is already a $75 Bn
-            economy, and promises to disrupt India’s $1.3 Tn financial services
-            market opportunity.
+        <div className="md:w-[50%] mt-4 md:mt-0 ">
+          <label className=" text-[14px] md:text-[18px] font-[arial] text-[#000000]">
+            Join Angel Investors, Startup Founders, and industry experts for an
+            exclusive gathering at the Lalit Mumbai on March 17th, 2024.
             <br />
+            Gain valuable insights, network with key players, and discover the
+            next generation of innovative startups.
             <br />
-            Inc42’s Fintech Summit is India’s premier fintech conference which
-            convenes India’s leading fintechs, financial institutions and tech
-            firms under one virtual roof for a dialogue on how fintech will
-            shape up India’s new economy.
-            <br />
-            <br /> The summit will examine the most revolutionary,
-            industry-changing financial products that are shaping what comes
-            next. Hear from India’s fintech leaders breaking new ground and old
-            rules. <br />
-            <br />
-            Join us as we examine how tech is disrupting one of the world’s
-            oldest industries.
+            The Startup Investor's Conclave - Mumbai is not just an event; it's
+            a catalyst for connection, investment, and innovation. It's your
+            chance to be a part of shaping the future of Indian startups and
+            propel yourself to the forefront of this exciting ecosystem.weather
+            you are a seasoned investor looking for top 1& startups to invest in
+            and grow your fortune or you are a startup founder looking for
+            funding opportunities, mentorship and the right network you can get
+            all in under one roof at this event . <br />
+            Limited seats available. Register today!
           </label>
         </div>
       </div>
