@@ -19,8 +19,8 @@ function App() {
       <Expect />
       {/* <Agenda /> */}
       <Tickets />
-      {/* <Sponsors />
-      <Bizzfooter /> */}
+      {/* {/* <Sponsors /> */}
+      <Bizzfooter />
     </div>
   );
 }
