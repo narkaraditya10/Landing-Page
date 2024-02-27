@@ -7,7 +7,7 @@ function Speakers() {
         Speakers
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 md:max-w-[1280px] w-fit gap-8 mt-[80px]">
-        <div className="md:w-[290px] w-[184px] md:h-[409px] h-[284px]">
+        <div className="md:w-[290px] w-[170px] md:h-[409px] h-[270px]">
           <div className=" md:w-[290px] aspect-square bg-[#FF706B] rounded-md"></div>{" "}
           <div className="pt-4">
             <h3 className="text-white font-[Eina01] text-[16px] font-normal ">
@@ -21,7 +21,7 @@ function Speakers() {
             </div>
           </div>
         </div>
-        <div className="md:w-[290px] w-[184px] md:h-[409px] h-[284px] ">
+        <div className="md:w-[290px] w-[170px] md:h-[409px] h-[270px] ">
           <div className=" md:w-[290px] aspect-square bg-[#FF706B] rounded-md"></div>{" "}
           <div className="pt-4">
             <h3 className="text-white font-[Eina01] text-[16px] font-normal ">
@@ -35,7 +35,7 @@ function Speakers() {
             </div>
           </div>
         </div>
-        <div className="md:w-[290px] w-[184px] md:h-[409px] h-[284px]">
+        <div className="md:w-[290px] w-[170px] md:h-[409px] h-[270px]">
           <div className=" md:w-[290px] aspect-square bg-[#FF706B] rounded-md"></div>{" "}
           <div className="pt-4">
             <h3 className="text-white font-[Eina01] text-[16px] font-normal ">
@@ -49,7 +49,7 @@ function Speakers() {
             </div>
           </div>
         </div>
-        <div className="md:w-[290px] w-[184px] md:h-[409px] h-[284px]">
+        <div className="md:w-[290px] w-[170px] md:h-[409px] h-[270px]">
           <div className=" md:w-[290px] aspect-square bg-[#FF706B] rounded-md"></div>{" "}
           <div className="pt-4">
             <h3 className="text-white font-[Eina01] text-[16px] font-normal ">
