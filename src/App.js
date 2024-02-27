@@ -8,6 +8,7 @@ import Home from "./components/home";
 import Agenda from "./components/agenda";
 import Tickets from "./components/tickets";
 import Sponsors from "./components/sponsors";
+import Faq from "./components/faq";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       {/* <Agenda /> */}
       <Tickets />
       {/* {/* <Sponsors /> */}
+      <Faq />
       <Bizzfooter />
     </div>
   );

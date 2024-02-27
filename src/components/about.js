@@ -1,9 +1,14 @@
 import React from "react";
+import Cardflip from "./cardflip";
 
 function About() {
   return (
     <div className="about-section">
-      <div className="about-section-stats grid grid-cols-2 md:grid-cols-4 w-full md:max-w-[1280px] md:h-[260px]  gap-[20px]  ">
+      <h1 className="text-[48px] font-[700] font-sans text-[#ff706b]  mt-[60px] ">
+        A CONCLAVE DESIGNED FOR
+      </h1>
+      <Cardflip />
+      <div className="about-section-stats grid grid-cols-2 md:grid-cols-4 w-full md:max-w-[1280px] md:h-[290px]  gap-[20px]  ">
         <div className="stat">
           <label>300+</label>
           <p>ATTENDEE</p>
