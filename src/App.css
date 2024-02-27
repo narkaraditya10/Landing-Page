@@ -75,7 +75,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
 .about-section-stats {
@@ -96,7 +95,7 @@
   background-color: #ffffff;
 
   width: 100%;
-  
+
   border-radius: 16px;
   padding: 80px 40px;
 }
@@ -277,4 +276,36 @@
 
 .flip-card:hover .flip-card-back {
   transform: rotateY(0deg);
+}
+@media (max-width: 425px) {
+  .flip-card-front,
+  .flip-card-back {
+    width: 350px;
+    min-height: 300px;
+    height: auto;
+    background-color: #000000;
+    /* background-image: url(https://wallpapercave.com/wp/wp3842313.jpg); */
+    background-size: cover;
+    background-position: center;
+
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+    transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  }
+  .inner h1 {
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: capitalize;
+  }
+
+  .inner p {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 10px;
+    display: flex;
+  }
 }

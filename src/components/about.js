@@ -4,7 +4,7 @@ import Cardflip from "./cardflip";
 function About() {
   return (
     <div className="about-section">
-      <h1 className="text-[48px] font-[700] font-sans text-[#ff706b]  mt-[60px] ">
+      <h1 className="text-[48px] text-center font-[700] font-sans text-[#ff706b]  mt-[60px] ">
         A CONCLAVE DESIGNED FOR
       </h1>
       <Cardflip />
