@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="hero-section">
       <div className="main-hero-section">
-        <div className="mid-hero-section p-4 flex flex-col items-center ">
+        <div className="mid-hero-section p-4 flex flex-col items-center mt-4 ">
           {/* <h2 className="text-[#fff] text-[16px] ">Bizdateup</h2>
           <span className="text-[#fff] text-[12px]">Presents</span>
           <div>
@@ -37,7 +37,7 @@ function Home() {
           </label>
           <label className="section-tags">
             {" "}
-            <FaCalendarDay /> Virtual
+            <FaCalendarDay /> 17th March 2024
           </label>
         </div>
       </div>

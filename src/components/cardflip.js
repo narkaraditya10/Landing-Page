@@ -1,6 +1,7 @@
 import React, { useState } from "react";
+import { motion } from "framer-motion";
 
-import { GoDotFill } from "react-icons/go";
+import { FaArrowRight } from "react-icons/fa";
 
 const Cardflip = () => {
   const [isFlipped, setisflipped] = useState(false);
@@ -23,22 +24,23 @@ const Cardflip = () => {
         </div>
         <div class="flip-card-back">
           <div class="inner">
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
+              <FaArrowRight />
               Network with angel investors, VCs, and private equity funds.{" "}
             </p>
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
+              <FaArrowRight />
               Learn from the best unicorn <br /> and decacorn founders at our
               engaging speaker sessions.
             </p>
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
-              Network with angel <br />
-              investors, VCs, family offices, and private equity funds.
+              <FaArrowRight />
+              Explore unique startups <br />
+              at the Startup Investor Conclave and join the exclusive Angel's
+              club.
             </p>
           </div>
         </div>
@@ -46,28 +48,28 @@ const Cardflip = () => {
       <div class="flip-card">
         <div class="flip-card-front">
           <div class="inner">
-            <h1>VC & FAMILY OFFICES VC & FAMILY OFFICES</h1>
+            <h1>VC & FAMILY OFFICES</h1>
           </div>
         </div>
         <div class="flip-card-back">
           <div class="inner">
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
-              Join us as a thought leader at the world’s largest investor
-              summit.
+              <FaArrowRight />
+              Join us as a thought leader <br /> at the Mumbai’s largest
+              investor summit.
             </p>
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
+              <FaArrowRight />
               Network with 200+ top <br />
-              start-ups and global startup ecosystem enablers.
+              start-ups and Mumbai’s #1 Startup Ecosystem Event.
             </p>
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
+              <FaArrowRight />
               Enjoy specially curated <br />
-              meals with startups, angel investors, and government officials.
+              meals with startups and angel investors
             </p>
           </div>
         </div>
@@ -75,27 +77,25 @@ const Cardflip = () => {
       <div class="flip-card">
         <div class="flip-card-front">
           <div class="inner">
-            <h1>Startups</h1>
+            <h1>STARTUPS</h1>
           </div>
         </div>
         <div class="flip-card-back">
           <div class="inner">
-            <p>
-              <GoDotFill size={20} />
-              Pitch to top angel <br /> investors, VCs, family offices, and
-              governments.
+            <p className="flex gap-2 items-start">
+              <FaArrowRight />
+              Pitch to top angel investors, VCs and family offices
             </p>
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
-              Meet renowned angel <br />
-              investors via AI-powered matchmaking.
+              <FaArrowRight size={15} />
+              Meet renowned angel investors.
             </p>{" "}
-            <p>
+            <p className="flex gap-2 items-start">
               {" "}
-              <GoDotFill size={20} />
-              Get global recognition <br />
-              for being part of the biggest angel investing event in the world.
+              <FaArrowRight />
+              Get recognition <br />
+              for being part of the angel investing event in the Mumbai.
             </p>
           </div>
         </div>

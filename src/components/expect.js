@@ -1,4 +1,10 @@
 import React from "react";
+import keynote from "../images/Vector.png";
+import fireside_chat from "../images/download (1) 1.png";
+import expert_panel from "../images/download (2) 1.png";
+import investment_panel from "../images/download (3) 1.png";
+import startup from "../images/download (4) 1.png";
+import network from "../images/download (5) 1.png";
 
 function Expect() {
   return (
@@ -8,13 +14,16 @@ function Expect() {
           <div className=" text-[28px] md:text-[60px] font-[Eina01] text-[#FF706B] leading-none ">
             What To Expect from this event?
           </div>
-          <span className=" text-[14px] md:text-[26px] font-[arial] md:w-1/2">
+          <span className=" text-[14px] md:text-[26px] font-[arial] md:w-1/2 mt-4 md:mt-0">
             Top 6 Reasons why should Attend Starup Investors Conclave’24.
           </span>
         </div>
         <div className="md:pt-[80px] py-[20px] px-[20px] md:pl-[60px] grid grid-flow-col overflow-x-scroll gap-10 ">
-          <div className="rounded-[16px] md:w-[300px] w-[240px]   bg-[#fff] overflow-hidden">
-            <div className="  h-[202px] md:h-[250px] bg-[#4C1145]  "> </div>
+          <div className="rounded-[16px] md:w-[300px] w-[280px] bg-[#fff] overflow-hidden">
+            <div className="  h-[202px] md:h-[250px] bg-[#4C1145] flex justify-center items-center  ">
+              {" "}
+              <img src={keynote} className="h-[180px]  text-[#fff]" />{" "}
+            </div>
             <div className="p-[28px] ">
               <div className="text-[#FF706B] text-[14px] md:text-[22.4px] mb-[12px] font-[Eina01] ">
                 01
@@ -31,8 +40,10 @@ function Expect() {
             </div>
           </div>
           {/* 2 */}
-          <div className="rounded-[16px] md:w-[300px] w-[240px]   bg-[#fff] overflow-hidden">
-            <div className="  h-[202px] md:h-[250px] bg-[#4C1145]  "> </div>
+          <div className="rounded-[16px] md:w-[300px] w-[280px]   bg-[#fff] overflow-hidden">
+            <div className="  h-[202px] md:h-[250px] bg-[#4C1145] flex justify-center items-center   ">
+              <img src={fireside_chat} className="h-[180px] text-[#fff]" />{" "}
+            </div>
             <div className="p-[28px] ">
               <div className="text-[#FF706B] text-[14px] md:text-[22.4px] mb-[12px] font-[Eina01] ">
                 02
@@ -47,8 +58,10 @@ function Expect() {
               </div>
             </div>
           </div>
-          <div className="rounded-[16px] md:w-[300px] w-[240px]   bg-[#fff] overflow-hidden">
-            <div className="  h-[202px] md:h-[250px] bg-[#4C1145]  "> </div>
+          <div className="rounded-[16px] md:w-[300px] w-[280px]   bg-[#fff] overflow-hidden">
+            <div className="  h-[202px] md:h-[250px] bg-[#4C1145] flex justify-center items-center   ">
+              <img src={expert_panel} className="h-[180px] text-[#fff]" />{" "}
+            </div>
             <div className="p-[28px] ">
               <div className="text-[#FF706B] text-[14px] md:text-[22.4px] mb-[12px] font-[Eina01] ">
                 03
@@ -63,8 +76,10 @@ function Expect() {
               </div>
             </div>
           </div>
-          <div className="rounded-[16px] md:w-[300px] w-[240px]   bg-[#fff] overflow-hidden">
-            <div className="  h-[202px] md:h-[250px] bg-[#4C1145]  "> </div>
+          <div className="rounded-[16px] md:w-[300px] w-[280px]   bg-[#fff] overflow-hidden">
+            <div className="  h-[202px] md:h-[250px] bg-[#4C1145] flex justify-center items-center   ">
+              <img src={investment_panel} className="h-[180px] text-[#fff]" />{" "}
+            </div>
             <div className="p-[28px] ">
               <div className="text-[#FF706B] text-[14px] md:text-[22.4px] mb-[12px] font-[Eina01] ">
                 04
@@ -78,8 +93,10 @@ function Expect() {
               </div>
             </div>
           </div>
-          <div className="rounded-[16px] md:w-[300px] w-[240px]   bg-[#fff] overflow-hidden">
-            <div className="  h-[202px] md:h-[250px] bg-[#4C1145]  "> </div>
+          <div className="rounded-[16px] md:w-[300px] w-[280px]   bg-[#fff] overflow-hidden">
+            <div className="  h-[202px] md:h-[250px] bg-[#4C1145] flex justify-center items-center   ">
+              <img src={startup} className="h-[180px] text-[#fff]" />{" "}
+            </div>
             <div className="p-[28px] ">
               <div className="text-[#FF706B] text-[14px] md:text-[22.4px] mb-[12px] font-[Eina01] ">
                 05
@@ -94,8 +111,10 @@ function Expect() {
               </div>
             </div>
           </div>
-          <div className="rounded-[16px] md:w-[300px] w-[240px]   bg-[#fff] overflow-hidden">
-            <div className="  h-[202px] md:h-[250px] bg-[#4C1145]  "> </div>
+          <div className="rounded-[16px] md:w-[300px] w-[280px]   bg-[#fff] overflow-hidden">
+            <div className="  h-[202px] md:h-[250px] bg-[#4C1145] flex justify-center items-center   ">
+              <img src={network} className="h-[180px] text-[#fff]" />{" "}
+            </div>
             <div className="p-[28px] ">
               <div className="text-[#FF706B] text-[14px] md:text-[22.4px] mb-[12px] font-[Eina01] ">
                 06

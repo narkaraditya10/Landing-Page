@@ -4,7 +4,7 @@ import { FaPlus } from "react-icons/fa6";
 
 function Faq() {
   return (
-    <div className="flex justify-center bg-[#F2F0F8] py-[40px] px-[20px]">
+    <div id="faq" className="flex justify-center bg-[#F2F0F8] py-[40px] px-[20px]">
       <div className=" w-full  max-w-[1280px] ">
         <div>
           <h1 className="text-[40px] text-[#ff706b] my-7 mb-10">
@@ -14,7 +14,7 @@ function Faq() {
         </div>
         <div></div>
         <h2 className="text-[28px] text-[#ff706b] my-5 ">General:</h2>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -36,7 +36,7 @@ function Faq() {
             confirmed closer to the event date.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -57,7 +57,7 @@ function Faq() {
             The event will be held at the Lalit Mumbai.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -81,7 +81,7 @@ function Faq() {
             Startup Ecosystem.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -106,7 +106,7 @@ function Faq() {
         <h2 className="text-[28px] text-[#ff706b] my-5 ">
           Tickets & Registration:
         </h2>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -132,7 +132,7 @@ function Faq() {
             potential investors. (Limited slots available)
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -153,7 +153,7 @@ function Faq() {
             You can register online through the event website.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -175,7 +175,7 @@ function Faq() {
             that date, refunds will not be issued.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -201,7 +201,7 @@ function Faq() {
         <h2 className="text-[28px] text-[#ff706b] my-5 ">
           Event Schedule & Activities:
         </h2>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -223,7 +223,7 @@ function Faq() {
             closer to the event date.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -245,7 +245,7 @@ function Faq() {
             investing, fundraising, startup pitching, industry trends, and more.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -267,7 +267,7 @@ function Faq() {
             throughout the day.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -291,7 +291,7 @@ function Faq() {
         </Accordion>
         {/*  */}
         <h2 className="text-[28px] text-[#ff706b] my-5 ">Startup Founders:</h2>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -313,7 +313,7 @@ function Faq() {
             slots available, so early application is encouraged.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -336,7 +336,7 @@ function Faq() {
             high-growth potential.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -360,7 +360,7 @@ function Faq() {
         </Accordion>
         {/*  */}
         <h2 className="text-[28px] text-[#ff706b] my-5 ">Other:</h2>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -381,7 +381,7 @@ function Faq() {
             Please bring a valid ID and your event confirmation email.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"
@@ -402,7 +402,7 @@ function Faq() {
             Yes, paid parking is available at the Lalit Mumbai.
           </AccordionDetails>
         </Accordion>
-        <Accordion>
+        <Accordion style={{ background: "#F2F0F8" }}>
           <AccordionSummary
             expandIcon={<FaPlus />}
             aria-controls="panel1-content"

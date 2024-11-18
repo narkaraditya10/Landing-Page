@@ -1,12 +1,23 @@
 @import url(https://db.onlinewebfonts.com/c/2d57f676e3d6955778fb8acac0176b9a?family=Eina01);
 
 .hero-section {
-  background: rgb(76, 17, 69);
+  /* background: rgb(76, 17, 69);
   background: linear-gradient(
     180deg,
     rgba(76, 17, 69, 1) 68%,
     rgba(1, 13, 15, 1) 100%
+  ); */
+
+  background: rgb(255, 112, 107);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 112, 107, 1) 0%,
+    rgba(93, 26, 73, 1) 40%,
+    rgba(76, 17, 69, 1) 71%
   );
+  /* background-image: url("https://www.thelalit.com/wp-content/uploads/2017/02/Facade-Mumbai-Mobile-Banner.jpg"); */
+  background-size: cover;
+
   height: 100vh;
   position: relative;
   display: flex;
@@ -21,20 +32,22 @@
 }
 
 .mid-hero-section {
-  background-color: #530647;
+  backdrop-filter: blur(9px) saturate(136%);
+  -webkit-backdrop-filter: blur(9px) saturate(136%);
+  background-color: rgba(76, 17, 69, 0.5);
 
-  width: 400px;
+  width: 280px;
 }
 
 .main-hero-section h1 {
-  font-size: 80px;
+  font-size: 65px;
   color: white;
   text-align: center;
   max-width: 800px;
   font-family: Eina01, sans-serif;
   line-height: 1;
-  font-weight: 600;
-  margin-top: 20px;
+  font-weight: 500;
+  margin-top: 10px;
 }
 
 .section-tags {
@@ -175,6 +188,25 @@
   }
 } */
 
+/* .flip-card {
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+} */
+
 .flip-card {
   margin: 20px;
   position: relative;
@@ -187,11 +219,11 @@
   width: 400px;
   min-height: 380px;
   height: auto;
-  background-color: #000000;
+
   /* background-image: url(https://wallpapercave.com/wp/wp3842313.jpg); */
   background-size: cover;
   background-position: center;
-
+  border-radius: 16px;
   backface-visibility: hidden;
   transform-style: preserve-3d;
   transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
@@ -199,16 +231,11 @@
 
 .flip-card-front {
   text-align: center;
+  background-color: #ffffff;
 }
 
-.flip-card:nth-of-type(2) .flip-card-front,
-.flip-card:nth-of-type(2) .flip-card-back {
-  /* background-image: url(https://wallpapercave.com/wp/wp5049551.jpg); */
-}
-
-.flip-card:nth-of-type(3) .flip-card-front,
-.flip-card:nth-of-type(3) .flip-card-back {
-  /* background-image: url(https://wallpapercave.com/wp/wp7907920.jpg); */
+.flip-card-back {
+  background-color: #4c1145;
 }
 
 .flip-card-front {
@@ -227,7 +254,7 @@
   content: "";
   width: 100%;
   height: 100%;
-  background-color: #0a0a0a;
+  /* background-color: #0a0a0a; */
   position: absolute;
   top: 0;
   left: 0;
@@ -255,7 +282,7 @@
 
 .inner h1 {
   margin-bottom: 8px;
-  color: #ffffff;
+  color: #4c1145;
   font-size: 30px;
   font-weight: 700;
   line-height: 40px;
@@ -277,24 +304,34 @@
 .flip-card:hover .flip-card-back {
   transform: rotateY(0deg);
 }
+
 @media (max-width: 425px) {
   .flip-card-front,
   .flip-card-back {
-    width: 350px;
+    width: 320px;
     min-height: 300px;
     height: auto;
-    background-color: #000000;
     /* background-image: url(https://wallpapercave.com/wp/wp3842313.jpg); */
     background-size: cover;
     background-position: center;
 
     backface-visibility: hidden;
     transform-style: preserve-3d;
+    border-radius: 16px;
     transition: transform 0.7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  }
+
+  .flip-card-front {
+    text-align: center;
+    background-color: #ffffff;
+  }
+
+  .flip-card-back {
+    background-color: #4c1145;
   }
   .inner h1 {
     margin-bottom: 8px;
-    color: #ffffff;
+    color: #4c1145;
     font-size: 30px;
     font-weight: 700;
     line-height: 40px;
@@ -308,4 +345,14 @@
     margin-top: 10px;
     display: flex;
   }
+}
+
+.efooter {
+  background: rgb(255, 112, 107);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 112, 107, 1) 0%,
+    rgba(93, 26, 73, 1) 40%,
+    rgba(76, 17, 69, 1) 71%
+  );
 }

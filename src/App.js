@@ -1,30 +1,34 @@
-import "./App.css";
-import About from "./components/about";
-import Bizznavbar from "./components/bizznavbar";
-import Bizzfooter from "./components/bizzfooter";
-import Speakers from "./components/speakers";
-import Expect from "./components/expect";
+import React from "react";
 import Home from "./components/home";
+import About from "./components/about";
+import Speakers from "./components/speakers";
+import Bizznavbar from "./components/bizznavbar";
+import Expect from "./components/expect";
 import Agenda from "./components/agenda";
 import Tickets from "./components/tickets";
 import Sponsors from "./components/sponsors";
+import Bizzfooter from "./components/bizzfooter";
 import Faq from "./components/faq";
+import "./App.css"
 
-function App() {
+import Attendee from "./components/attendee";
+
+function Bizzneeti() {
   return (
-    <div className="App">
+    <div>
       <Bizznavbar />
       <Home />
       <About />
       <Speakers />
       <Expect />
-      {/* <Agenda /> */}
+      <Attendee />
+      <Agenda />
       <Tickets />
-      {/* {/* <Sponsors /> */}
       <Faq />
+      {/* <Sponsors /> */}
       <Bizzfooter />
     </div>
   );
 }
 
-export default App;
+export default Bizzneeti;
